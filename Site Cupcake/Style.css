@@ -1,0 +1,108 @@
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('imagens/imagem fundo.jpg') no-repeat center center fixed; /* Caminho relativo */
+    background-size: cover;
+    color: #333;
+    height: 100vh; /* Garante que o body ocupe a tela toda */
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Navbar */
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff6347;
+}
+
+/* Seção principal (foto do cupcake) */
+.main-section {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.main-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff6347;
+}
+
+.main-section p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.cupcake-image {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/* Botões de ação */
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.action-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.action-button:hover {
+    background-color: #ff4500;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 16px;
+}
